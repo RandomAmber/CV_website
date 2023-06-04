@@ -1,0 +1,90 @@
+/* Utilities */
+
+h2 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+/* Text sizes */
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 1.5rem;
+}
+
+.lg {
+    font-size: 2rem;
+}
+
+.xl {
+    font-size: 3rem;
+}
+
+.menu-card {
+    background-image: linear-gradient(22deg, rgba(255,61,61,0.412) 0%, rgba(240,132,86,0.008) 100%);
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba (0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.chosen {
+  
+    background-color: #dd6e42;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+
+}
+
+.chosen:hover {
+    transform: scale(1.05);
+}
+
+.card-2 {
+    background-color: #6188D4;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+
+}
+
+.card-2:hover {
+    transform: scale(1.05);
+}
+
+.card-3 {
+    background-color: #2799A8;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card-3:hover {
+    transform: scale(1.05);
+}
+
+.card-4 {
+    background-color: #68B386;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+    
+}
+
+.card-4:hover {
+    transform: scale(1.05);
+}
