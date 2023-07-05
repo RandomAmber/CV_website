@@ -1,4 +1,4 @@
-/* Utilities */
+Utilities
 
 h2 {
     font-weight: 500;
@@ -28,6 +28,28 @@ h2 {
     font-size: 3rem;
 }
 
+.menu-card {
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    border-bottom: 4px solid var(--bright-color);
+    transition: width 0.25s ease, border-color 0.25s ease;
+}
+
+.menu-card:hover {
+    width: 180px;
+
+}
+
+/* .chosen:hover {
+    width: 180px;
+}
+
+.card-2:hover {
+    border-bottom: 180px;
+} */
+
+/* 
 .menu-card {
     background-image: linear-gradient(22deg, rgba(207, 112 ,65,0.412) 0%, rgba(226,165,94,0.008) 100%);
     border-radius: 50px;
@@ -87,4 +109,4 @@ h2 {
 
 .card-4:hover {
     transform: scale(1.05);
-}
+} */
