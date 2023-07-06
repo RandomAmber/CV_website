@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-     -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
@@ -20,50 +18,54 @@
             <div class="empty-heading">
             </div>
             <ul>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="files/CV Tsvetkova.pdf" target="_blank">Resume</a></li>
+                <li><a href="mailto:randambery@gmail.com">Contact</a></li>
             </ul>
         </div>
     </div>
 
     <!-- Main -->
 
-    <div class="main grid">
+    <div id="main" class="main grid">
         <div class="about grid">
             <div class="photo">
                 <img src="images/me.png" alt="Me">
             </div>
             <div class="intro">
                 <h2 class="lg">Hi, I'm Victoria</h2>
-                <p class="sm">I'm an aspiring Developer now based in <span class="highlight">Finland</span>. Still can't decide if I'm about to go <span class="highlight">Full Stack, Game Dev or Data Science</span>.<br>Probably I'll just never stop learning! </p>
+                <p class="sm">I'm an aspiring Developer now based in <span class="highlight">Finland</span>. Still can't decide if I'm about to go <span class="highlight">Full Stack, Game Dev or Data Science</span>.<br>I guess I'll just never stop learning! </p>
             </div>
             <div class="more">
                 <p>I also do these things for hobbies:</p>
             </div>
             <div class="interests flex">
-                <div class="interest-card one">
-                    <h3>Write fiction</h3>
-                </div>
-                <div class="interest-card one">
+                <a href="404.html" target="_blank" title="Olesya's website">
+                    <div class="interest-card one">
+                        <h3>Write fiction</h3>
+                    </div>
+                </a>
+                <a href="https://vk.com/conlang" target="_blank" title="My community page"> 
+                    <div class="interest-card">
                     <h3>Construct languages</h3>
                 </div>
-                <div class="interest-card one">
-                    <h3>Take pics of my cat</h3>
-                </div>
+                </a>
+               
+                <a href="https://www.instagram.com/p/CsLhXTWIF-7/" target="_blank" title="My wife's insta">
+                    <div class="interest-card">
+                        <h3>Take pics of my cat</h3>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="menu grid">
-            <div class="menu-item menu-card chosen">
-                <a href="index.html">Home</a>
+            <div class="menu-item menu-card">
+                <a href="#projects">Projects</a>
             </div>
-            <div class="menu-item menu-card card-2">
-                <a href="projects.html">Projects</a>
+            <div class="menu-item menu-card">
+                <a href="#skills">Skills</a>
             </div>
-            <div class="menu-item menu-card card-3">
-                <a href="skills.html">Skills</a>
-            </div>
-            <div class="menu-item menu-card card-4">
-                <a href="education.html">Education</a>
+            <div class="menu-item menu-card">
+                <a href="#education">Education</a>
             </div>
 
         </div>
@@ -72,7 +74,7 @@
 
 
     <!-- Projects -->
-    <div class="projects">
+    <div id="projects" class="projects">
         <h2 class="lg">My projects</h2>
         <p class="sm">Here are some of the projects I've done so far. <br> I'm always open to new ideas and collaborations!</p>
             <div class="project-cards">
@@ -90,12 +92,17 @@
                     <p>You may find the details here:</p>
                 </div>
                 <div class="interests flex">
-                    <div class="interest-card one">
-                        <h3>The game website</h3>
-                    </div>
-                    <div class="interest-card one">
-                        <h3>Code</h3>
-                    </div>
+                    <a href="404.html" target="_blank" title="At dusk page">
+                        <div class="interest-card one">
+                            <h3>The game website</h3>
+                        </div>
+                    </a>
+                    <a href="https://github.com/RandomAmber/At_dusk_game" target="_blank" title="My code on Github">
+                        <div class="interest-card one">
+                            <h3>Code</h3>
+                        </div>
+                    </a>
+                    
             </div>
         </div>
         <!--Competitions-->
@@ -111,12 +118,16 @@
                     <p>You may find the details here:</p>
                 </div>
                 <div class="interests flex">
-                    <div class="interest-card one">
-                        <h3>Titanic Kaggle</h3>
-                    </div>
+                    <a href="https://github.com/RandomAmber/Titanic_kaggle" target="_blank" title="My code practice on Github">
+                        <div class="interest-card one">
+                            <h3>Titanic Kaggle</h3>
+                        </div>
+                    </a>
+                    <a href="https://github.com/ai-forever/combined_solution_aij2019" target="_blank" title="Combined solution on Github. My team's solution is for task #1">
                     <div class="interest-card one">
                         <h3>AI Journey Sber</h3>
                     </div>
+                    </a>
             </div>
         </div>
 
@@ -133,22 +144,33 @@
                 <p>You may find the details here:</p>
             </div>
             <div class="interests flex">
-                <div class="interest-card one">
-                    <h3>Connect four</h3>
-                </div>
-                <div class="interest-card one">
-                    <h3>Tetris</h3>
-                </div>
+                <a href="https://github.com/RandomAmber/JS_games/tree/master/Neljän%20suora" target="_blank" title="My code on Github">
+                    <div class="interest-card one">
+                        <h3>Connect four</h3>
+                    </div>
+                </a>
+                <a href="https://github.com/RandomAmber/JS_games/tree/master/Tetris" target="_blank" title="My code on Github">
+                    <div class="interest-card one">
+                        <h3>Tetris</h3>
+                    </div>
+                </a>
+              <a href="https://github.com/RandomAmber/JS_games/tree/master/muistipeli" target="_blank" title="My code on Github">
                 <div class="interest-card one">
                     <h3>Memory game</h3>
                 </div>
+              </a>
+               <a href="https://github.com/RandomAmber/JS_games/tree/master/sammakkopeli" target="_blank" title="My code on Github">
                 <div class="interest-card one">
                     <h3>Frog jumper</h3>
                 </div>
+               </a>
+               <a href="https://github.com/RandomAmber/JS_games/tree/master/matopeli" target="_blank" title="My code on Github">
                 <div class="interest-card one">
                     <h3>Snake</h3>
+                </div>
+               </a>
+                
             </div>
-        </div>
     </div>
 
     <!--Python games-->
@@ -164,15 +186,22 @@
             <p>You may find the details here:</p>
         </div>
         <div class="interests flex">
-            <div class="interest-card one">
-                <h3>Basic Pong</h3>
-            </div>
+            <a href="https://github.com/RandomAmber/pygames/tree/master/Pong" target="_blank" title="My code on Github">
+                <div class="interest-card one">
+                    <h3>Basic Pong</h3>
+                </div>
+            </a>
+           <a href="https://github.com/RandomAmber/pygames/tree/master/Memory_Finnish" target="_blank" title="My code on Github">
             <div class="interest-card one">
                 <h3>Learn Finnish game</h3>
             </div>
+           </a>
+           <a href="https://github.com/RandomAmber/pyserver_game" target="_blank" title="My team's code on Github">
             <div class="interest-card one">
                 <h3>Twin platformer</h3>
             </div>
+           </a>
+           
     </div>
 </div>
 
@@ -183,7 +212,7 @@
     </div>
 
     <!--Skills-->
-    <div class="skills">
+    <div id="skills "class="skills">
         <h2 class="lg">Skills</h2>
         <p class="sm">Here are some of the skills I've acquired so far.</p>
         <div class="skills-cards">
@@ -238,16 +267,16 @@
                 <h3>Theory</h3>
                 <ul>
                     <li>
-                        <p>Machine Learning</p>
-                        <i class="fa-solid fa-chess-bishop"></i>
+                        <p>Linguistics</p>
+                        <i class="fa-solid fa-chess-queen"></i>
                     </li>
                     <li>
                         <p>NLP</p>
                         <i class="fa-solid fa-chess-bishop"></i>
                     </li>
                     <li>
-                        <p>Linguistics</p>
-                        <i class="fa-solid fa-chess-queen"></i>
+                        <p>Machine Learning</p>
+                        <i class="fa-solid fa-chess-bishop"></i>
                     </li>
                 </ul>
             </div>
@@ -293,73 +322,66 @@
     </div>
 
     <!--Education & Experience-->
-        <div class="education">
+        <div id="education" class="education">
             <h2 class="lg">Education & Experience</h2>
-            <p class="sm">Before diving into IT, I also used to be a language tutor, a school teacher and a university lecturer!</p>
             <div class="education-cards">
-                <div class="education-card">
-                    <p>Dec 2022 - Dec 2024</p>
-                    <p>Full-Stack Software Developer (perustutkinto)</p>
-                    <p>Salon Seudun Ammattiopisto, Finland</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam iure, optio est illo reiciendis!</p>
+                <div class="education-container-odd">
+                    <div class="education-card">
+                        <p>Dec 2022 - Dec 2024</p>
+                        <p>Full-Stack Software Developer (college degree)</p>
+                        <p>Salon Seudun College, Finland</p>
+                        <br>
+                        <p>As a student at Salo College, I am engaged in studying diverse areas such as frontend, backend, and game development. Additionally, I am actively learning Finnish communication skills and familiarizing myself with working in a Finnish environment.</p>
+                    </div>
+                    <div class="education-card">
+                    </div>
+                    <div class="education-card">
+                        <p>4 Sep 2017 - May 2018</p>
+                        <p>Course Manager at Data Mining in Action course </p>
+                        <p>Peoples' Friendship University, Russia</p>
+                        <br>
+                        <p>My IT journey kicked off when I became the manager for the biggest on-site course in Data Science in the CIS countries. While juggling tasks like overseeing the learning process, writing texts, prepping study materials, and organizing social events for teachers and students, something unexpected happened — I discovered my love for programming and machine learning.</p>
+                    </div>
+                    <div class="education-card">
+                    </div>
+                    <div class="education-card">
+                        <p>Sep 2011 - Jun 2016</p>
+                        <p>Bachelor of Art in Philology</p>
+                        <p>Lomonosov Moscow State University, Russia</p>
+                        <br>
+                        <p>For my first bachelor's degree in literature and language studies, I immersed myself in diligent study. My dedication paid off, reflected in the GPA of 4.9. It was an enriching experience where I delved into various cultures and devoured countless books.
+                        </p>
+                    </div>
+                    
+
+
                 </div>
-                <div class="education-card">
-                    <p>empty</p>
-                    <p>B.A. Philology</p>
-                    <p>Lomonosov Moscow State University, Russia</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
-                </div>
-                <div class="education-card">
-                    <p>empty</p>
-                    <p>Full-Stack Software Developer (perustutkinto)</p>
-                    <p>Salon Seudun Ammattiopisto, Finland</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam iure, optio est illo reiciendis!</p>
-                </div>
-                <div class="education-card">
-                    <p>Jun 2023 - present</p>
-                    <p>IT volunteer at Equal </p>
-                    <p>Europe, online</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam iure, optio est illo reiciendis!</p>
-                </div>
-                <div class="education-card">
-                    <p>4 Sep 2017 - May 2018</p>
-                    <p>Course Manager at DMIA </p>
-                    <p>Moscow</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
-                </div>
-                <div class="education-card">
-                    <p>Jun 2023 - present</p>
-                    <p>IT volunteer at Equal </p>
-                    <p>Europe, online</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam iure, optio est illo reiciendis!</p>
-                </div>
-                <div class="education-card">
-                    <p>empty</p>
-                    <p>Course Manager at DMIA </p>
-                    <p>Moscow</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
+                <div class="education-container-even">
+                    <div class="education-card">
+                    </div>
+                    <div class="education-card">
+                        <p>Jun 2023 - present</p>
+                        <p>IT volunteer at Equal </p>
+                        <p>Online, European Union</p>
+                        <br>
+                        <p>It's always been my dream to volunteer for an LGBTQ+ organization, and I'm thrilled to become part of the IT group at Equal organization. Here, I get the opportunity to learn various hard- and soft skills and contribute to building useful apps, such as chatbots for Telegram. </p>
+                    </div>
+                    <div class="education-card">
+                    </div>
+                    <div class="education-card">
+                        <p>Sep 2017 - May 2018</p>
+                        <p>Language tutor</p>
+                        <p>Russia and online</p>
+                        <br>
+                        <p>Before delving into the world of IT, I had a diverse professional background as a language tutor, a university teacher, and a private school teacher. These experiences honed my essential soft skills and equipped me with the ability to effectively interact with individuals from all walks of life. I developed a knack for building rapport and establishing fruitful relationships with people from various backgrounds and perspectives.</p>
+                    </div>
+                    <div class="education-card">
+                    </div>
+
+
                 </div>
 
-                <div class="education-card">
-                    <p>Sep 2017 - May 2018</p>
-                    <p>LOTS OF WORK AS A tutor</p>
-                    <p>Moscow</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
-                </div>
-
-                <div class="education-card">
-                    <p>Sep 2011 - Jun 2016</p>
-                    <p>B.A. Philology</p>
-                    <p>Lomonosov Moscow State University, Russia</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
-                </div>
-
-                <div class="education-card">
-                    <p>empty</p>
-                    <p>B.A. Philology</p>
-                    <p>Lomonosov Moscow State University, Russia</p>
-                    <p>GPA: 4.9/5.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, velit.</p>
-                </div>
+                
             </div>
     
         </div>
@@ -370,16 +392,17 @@
     <!-- Footer -->
     <div class="footer grid">
             <div class="footer-left">
-                <p>© 2023 Victoria Tsvetkova</p>
+                <i class="fa-solid fa-feather-pointed"></i>
+                <p> 2023 Victoria Tsvetkova</p>
             </div>
             <div class="empty-space">
             </div>
             <div class="footer-right flex">
-                <p class="sm">I'm not a fan of social media, but here're some:</p>
+                <p class="sm">I'm not an avid user of social media, but here are some</p>
                     <ul class="social">
-                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/victoriatsvetkova/"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/RandomAmber"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://telegram.me/randambery"><i class="fab fa-telegram fa-2x"></i></a>
                     </ul>
                 
             </div> 
