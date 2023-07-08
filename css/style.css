@@ -185,7 +185,8 @@ a {
    gap: 20px;
    justify-content: center;
    align-items: center;
-   padding: 70px;
+   padding-top: 70px;
+   padding: 50px;
    background-color: var(--background-color);
    color: var(--primary-text);
    text-align: center;
@@ -245,6 +246,7 @@ a {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: var(--background-color);
     color: var(--primary-text);
 }
@@ -299,6 +301,11 @@ a {
     gap: 20px;
     flex-basis: 49%;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.mobile-br {
+    display: none;
 }
 
 .education-cards {
@@ -531,10 +538,27 @@ a {
 
 /* Mobile version test on pc: change max-width to 600px! */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .intro {
         padding: 25px;
     }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .about .intro {
+        width: auto;
+     }
+
+    .menu {
+        display: none;
+    }
+
+    .interests {
+        display: grid;
+    }
+
 
     .project-cards {
         flex-direction: row;
@@ -548,9 +572,17 @@ a {
     }
 
     .skills-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: auto;
+        justify-content: center;
    
     }
+
+
+    .mobile-br {
+        display: block;
+        margin: 10px;
+
+    } 
 
     .education-container-odd, .education-container-even {
         display: none;
@@ -577,6 +609,11 @@ a {
 
     .footer-left, .footer-right {
         height: 100px;
+        max-width: auto;
+    }
+
+    .footer-right p {
+        font-size: 0;
     }
 
 
